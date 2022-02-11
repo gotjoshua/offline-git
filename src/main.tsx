@@ -1,7 +1,10 @@
 import { h, render } from 'preact'
 import 'virtual:windi.css'
 import { App } from './app'
+import { gitInit } from './Data/git'
 import './index.css'
+
+void gitInit()
 
 render(
   <App />
